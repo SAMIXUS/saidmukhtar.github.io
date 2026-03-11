@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sky Portfolio | University Student Showcase</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav>
+        <div class="logo"><strong>KAMOLOV</strong>SAIDMUKHTAR</div>
+        <ul class="nav-links">
+            <li><a href="#hero">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#works">Works</a></li>
+            <li><a href="#archive">Archive</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <!-- Hero Section -->
+        <section id="hero" class="hero-section">
+            <div class="glass-panel hero-card animate-float">
+                <span class="badge fade-in">2nd Year Student • Bukhara State University</span>
+                <h1 class="fade-in">Hi, I'm <span class="accent-text">Saidmukhtar</span></h1>
+                <p class="tagline fade-in">Student, Linguist, and Aspiring Entrepreneur turning ideas into reality.</p>
+                <div class="hero-actions fade-in">
+                    <a href="#works" class="btn btn-primary">View Projects</a>
+                    <a href="#contact" class="btn btn-secondary">Get in Touch</a>
+                </div>
+            </div>
+            <div class="floating-blobs">
+                <div class="blob blob-1"></div>
+                <div class="blob blob-2"></div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section id="about">
+            <div class="glass-panel about-card">
+                <h2>About Me</h2>
+                <div class="about-content">
+                    <div class="about-text">
+                        <p>My name is Saidmukhtar. I am a second-year student constantly striving for growth and new opportunities. I enjoy creating projects, exploring modern technologies, and turning ideas into real results. I value minimalism, attention to detail, and high-quality work. Alongside my studies, I work a part-time job where I handle cash accounting, invoices, and daily reports.</p>
+                        <ul class="info-list">
+                            <li><strong>University:</strong> Bukhara State University</li>
+                            <li><strong>Faculty:</strong> Foreign Languages (2nd Year)</li>
+                            <li><strong>City:</strong> Bukhara, Uzbekistan</li>
+                            <li><strong>Languages:</strong> Uzbek (Native), Russian (Fluent), English (Intermediate)</li>
+                        </ul>
+                        <div class="interests-tags">
+                            <span class="tech-tag">English Phonetics</span>
+                            <span class="tech-tag">Linguistics</span>
+                            <span class="tech-tag">Translation</span>
+                            <span class="tech-tag">IELTS/TOEFL</span>
+                            <span class="tech-tag">Teaching</span>
+                            <span class="tech-tag">Public Speaking</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Works / Portfolio Section -->
+        <section id="works">
+            <div class="section-header">
+                <h2>Selected Works</h2>
+                <p>A showcase of my projects in translation, linguistics, and digital exploration.</p>
+            </div>
+            <div class="portfolio-grid">
+                <!-- Project 1 -->
+                <div class="glass-panel project-card" onclick="openProject('Digital Translation Archive')">
+                    <img src="project_thumb_1_1773233244047.png" alt="Translation Project" class="project-img">
+                    <div class="project-info">
+                        <h3>Digital Translation Archive</h3>
+                        <p>A systematic collection of cross-cultural translation projects.</p>
+                        <span class="tech-tag">Linguistics</span>
+                    </div>
+                </div>
+                <!-- Project 2 -->
+                <div class="glass-panel project-card" onclick="openProject('Phonetics Research')">
+                    <div class="project-img-placeholder"></div>
+                    <div class="project-info">
+                        <h3>Phonetics Research</h3>
+                        <p>In-depth study of English phonetics and pronunciation patterns.</p>
+                        <span class="tech-tag">English Studies</span>
+                    </div>
+                </div>
+                <!-- Project 3 -->
+                <div class="glass-panel project-card" onclick="openProject('Financial Accounting Mod')">
+                    <div class="project-img-placeholder"></div>
+                    <div class="project-info">
+                        <h3>Daily Reporting System</h3>
+                        <p>Workflow optimization for cash accounting and invoice management.</p>
+                        <span class="tech-tag">Productivity</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Archive / Storage Section -->
+        <section id="archive">
+            <div class="glass-panel archive-container">
+                <div class="section-header">
+                    <h2>Digital Archive</h2>
+                    <p>Open for: Internships, Translation projects, Teaching, and Collaboration.</p>
+                </div>
+                <div class="archive-categories">
+                    <button class="category-btn active">All</button>
+                    <button class="category-btn">Study</button>
+                    <button class="category-btn">Translation</button>
+                    <button class="category-btn">Reports</button>
+                </div>
+                <div class="archive-list">
+                    <div class="archive-item">
+                        <div class="icon">📝</div>
+                        <div class="item-details">
+                            <h4>Linguistics_Dissertation_Draft.pdf</h4>
+                            <span>5 MB • PDF</span>
+                        </div>
+                        <button class="download-btn">View</button>
+                    </div>
+                    <div class="archive-item">
+                        <div class="icon">🌐</div>
+                        <div class="item-details">
+                            <h4>Translation_Portfolio_2025.zip</h4>
+                            <span>15 MB • ZIP</span>
+                        </div>
+                        <button class="download-btn">Download</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact">
+            <div class="glass-panel contact-card">
+                <h2>Let's Connect</h2>
+                <p>Email: <a href="mailto:saidmuxtorkamolov@gmail.com" class="contact-link">saidmuxtorkamolov@gmail.com</a></p>
+                <div class="social-links">
+                    <a href="https://t.me/Saidmukhtar" target="_blank" class="btn btn-secondary">Telegram</a>
+                    <a href="https://instagram.com/saidmukhtar__" target="_blank" class="btn btn-secondary">Instagram</a>
+                </div>
+                <form class="contact-form" action="https://formspree.io/f/mreyqqqw" method="POST">
+                    <div class="form-group">
+                        <input type="email" name="email" placeholder="Your Email" required>
+                    </div>
+                    <div class="form-group">
+                        <textarea name="message" placeholder="Your Message" rows="5" required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Send Message</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Sky Portfolio. Built with love and glass.</p>
+    </footer>
+
+    <!-- Project Modal -->
+    <div id="projectModal" class="modal">
+        <div class="glass-panel modal-content">
+            <span class="close-modal">&times;</span>
+            <div id="modalBody"></div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
